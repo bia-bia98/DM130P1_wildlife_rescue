@@ -1,0 +1,145 @@
+/*  
+Author: abia joseph 
+File Name: styles.css
+Date: 09/29/2024
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+	background-color: #f6eee4;
+} 
+
+img {
+	max-width: 100%; 
+	display: block;
+}
+
+/* Style rules for mobile viewport */
+
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile {
+	display: block;
+}
+
+.tab-desk {
+	display: none;
+}
+
+/* Style rules for header area */ 
+.mobile h1 {
+	padding: 2%;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Emblema One', sans-serif;
+}
+
+.mobile h3 {
+	padding: 2%;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Lora', sans-serif;
+}
+
+/* Style rules for navigation area */
+nav {
+	background-color: #2a1f14;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: block;
+	border-top: 0.5px solid #f6eee4;
+	font-size: 1.5em;
+	font-family: Geneva, Arial, sans-serif;
+	font-weight: bold;
+}
+
+nav li a {
+	display: block;
+	color: #f6eee4;
+	padding: 0.5em 2em;
+	text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+	padding: 2%;
+	font-family: 'Lora', sans-serif;
+}
+
+main p {
+	font-size: 1.25em;
+}
+
+main h3 {
+	padding: 2%;
+}
+
+main ul {
+	list-style-type: square;
+}
+
+/* Style rules for class and id selectors */
+.link {
+	color: #4d3319;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.action {
+	font-size: 1.75em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.round {
+	border-radius: 6px;
+}
+
+#info ul {
+	margin-left: 10%;
+}
+
+#contact {
+	text-align: center;
+}
+
+.tel-link {
+	background-color: #2a1f14;
+	padding: 2%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.tel-link a {
+	color: #f6eee4;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Style rules for footer content #f6eee4   #f3e6d8*/
+footer {
+	text-align: center;
+	font-size: 0.85em;
+	background-color: #2a1f14;
+	color: #f3e6d8;
+	padding: 1% 0%;
+}
+
+footer a {
+	color: #f3e6d8;
+	text-decoration: none;
+}
